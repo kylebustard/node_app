@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.12.0",
+    "webpack-command": "^0.2.1"
   }
 }
